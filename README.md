@@ -74,7 +74,7 @@ Les points Gowin sont plus efficaces sur les segments de **nouveaux utilisateurs
 Oui.  
 Le **paiement par portefeuille** s’est avéré être le **plus rentable** lorsqu’il est associé à l’incitation **points Gowin**, devant le paiement en espèces et par carte.
 
-![Revenu médian par moyen de paiement](Images/revenu_médian_par_moyen_de_paiement.png)
+![Revenu médian par moyen de paiement](Images/Images/revenu_médian_par_moyen_de_paiement.png)
 
 ---
 
