@@ -3,7 +3,7 @@
 
 ## Contexte
 
-Ce projet a pour but d’évaluer **l’impact des incitations** (remise de bienvenue, points et prime objectif) sur le **revenu d’une plateforme de VTC fictive**.
+Ce projet a pour but d’évaluer **l’impact des incitations marketing et professionelles** (remise de bienvenue, points et prime objectif) sur le **revenu d’une plateforme de VTC fictive**.
 
 Afin d’arriver à des conclusions pertinentes, j’ai basé mes comparaisons sur quatre indicateurs clés :
 - le **revenu moyen**,
@@ -58,7 +58,7 @@ L’incitation qui rapporte le plus à l’entreprise est **le point Gowin**.
 Les points Gowin sont **peu coûteux à implémenter** (environ **24 FCFA** par course) tout en générant le **meilleur revenu médian** (environ **1 150 FCFA**).  
 À titre de comparaison, la **prime objectif** coûte **environ 300 FCFA**, soit **plus de 12 fois le coût des points Gowin**, tout en générant un revenu inférieur.
 
-![Revenu médian vs coût moyen par type d'incitation](images/Revenu médian vs cout moyen par type d'incitation.png)
+![Revenu médian vs coût moyen par type d'incitation](Images/Revenu_médian_vs_cout_moyen_par_type_d'incitation.png)
 
 ---
 
@@ -74,7 +74,7 @@ Les points Gowin sont plus efficaces sur les segments de **nouveaux utilisateurs
 Oui.  
 Le **paiement par portefeuille** s’est avéré être le **plus rentable** lorsqu’il est associé à l’incitation **points Gowin**, devant le paiement en espèces et par carte.
 
-![Revenu médian par moyen de paiement](images/Revenu médian par moyen de paiement.png)
+![Revenu médian par moyen de paiement](Images/revenu_médian_par_moyen_de_paiement.png)
 
 ---
 
@@ -85,7 +85,7 @@ Les zones de départ les plus rentables identifiées sont :
 
 Ces zones semblent concentrer une demande suffisante et des prix de départ plus élevée par course.
 
-![Revenu médian par zone de départ](images/Revenu médian par zone de depart.png)
+![Revenu médian par zone de départ](Images/Top_5_des_zones_de_départ_les_plus_rentables.png)
 
 ---
 
@@ -109,7 +109,7 @@ Les chauffeurs performants affichent :
 
 Cela montre que les chauffeurs performants offrent le **meilleur compromis entre rentabilité et capacité opérationnelle**.
 
-![Revenu médian et volume par segment chauffeur](images/Revenu median et volume par segment chauffeur.png)
+![Revenu médian et volume par segment chauffeur](Images/revenu_médian_vs_volume_par_segment_chauffeur.png)
 
 ---
 
