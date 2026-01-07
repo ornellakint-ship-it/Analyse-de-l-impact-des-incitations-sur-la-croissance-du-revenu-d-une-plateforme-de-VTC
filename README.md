@@ -1,5 +1,6 @@
 
 # Analyse de l’impact des incitations sur la croissance du revenu d’une plateforme de VTC
+Scroll down for an English version of this READ ME
 
 ## Contexte
 
@@ -149,4 +150,159 @@ Les **points Gowin** apparaissent comme le levier le plus performant, en particu
 
 Ces résultats suggèrent qu’une stratégie d’incitation efficace ne repose pas uniquement sur le choix du mécanisme, mais sur un **ciblage précis et intelligent**, orienté vers une **croissance durable et rentable**.
 
+Perfect — below is a **GitHub-ready Markdown version**, with proper **headings, bold text, and structure**.
+You can **paste this directly into the GitHub README editor** and it will render cleanly.
+
+---
+
+# **Analysis of the Impact of Incentives on Revenue Growth for a Ride-Hailing Platform**
+
+---
+
+## **Context**
+
+The objective of this project is to evaluate the **impact of marketing and operational incentives** (**welcome discounts, loyalty points, and performance bonuses**) on the **revenue of a fictional ride-hailing platform**.
+
+To reach meaningful conclusions, the analysis is based on **four key performance indicators**:
+
+* **Average revenue**
+* **Median revenue**
+* **Total revenue**
+* **Number of completed trips**
+
+The **net median revenue** was used as the **primary indicator**, as it better reflects the *typical* ride value and is not influenced by extreme values or outliers.
+
+Concretely, the fictional ride-hailing company seeks to answer the following questions:
+
+* **Which incentive generates the most revenue?**
+* **When should incentives be activated?**
+* **Where should incentives be activated?**
+* **Which customers and drivers should be targeted?**
+
+Better targeting would allow the company to **allocate resources more efficiently** and achieve **more profitable growth**.
+To support this, the analysis also considers:
+
+* **Geographic location**
+* **Customer and driver segments** (based on usage frequency and performance)
+* **Peak demand periods**
+
+---
+
+## **Analytical Approach**
+
+A **progressive exploratory analysis** was conducted, based on **segmentation, filtering, and successive elimination**.
+
+The analysis follows a sequence of questions, moving from **general insights to more specific ones**.
+At each step:
+
+1. Results are analyzed
+2. Only relevant values are retained
+3. The dataset is filtered
+4. The analysis proceeds to the next question
+
+This approach made it possible to progressively identify **the most profitable combination of factors** for the company.
+
+---
+
+## **Key Insights**
+
+The combination that generates the **highest revenue** is:
+
+**Gowin points + active customers + wallet payment + weekend / peak hours + high-performing drivers + most profitable pickup zones**
+
+---
+
+## **Methodology and Results**
+
+### **Q1 – Which incentive generates the highest net revenue for the company?**
+
+The incentive that generates the highest revenue is **Gowin points**.
+
+Gowin points are **low-cost to implement** (approximately **24 FCFA per ride**) while generating the **highest median revenue** (around **1,150 FCFA**).
+
+By comparison, the **performance bonus** costs approximately **300 FCFA**, which is **more than 12 times the cost of Gowin points**, while generating lower revenue.
+
+![Median revenue vs average cost per incentive type](Images/Revenu_médian_vs_cout_moyen_par_type_d'incitation.png)
+
+---
+
+### **Q2 – Are Gowin points more effective for specific customer segments?**
+
+Yes.
+Gowin points are more effective for **new users** and **regular users**, which were grouped under the category of **active customers**.
+
+---
+
+### **Q3 – Are Gowin points more profitable with a specific payment method?**
+
+Yes.
+**Wallet payments** proved to be the **most profitable** when combined with **Gowin points**, outperforming **cash** and **card** payments.
+
+![Median revenue by payment method](Images/revenu_médian_par_moyen_de_paiement.png)
+
+---
+
+### **Q4 – Which pickup zones are the most profitable when Gowin points are applied?**
+
+The most profitable pickup zones identified are:
+
+**Gbodjè, Calavi Kpota, Cadjèhoun, Agla, Akpakpa, and Fidjrossè**
+
+These areas appear to combine **sufficient demand** with **higher base fares per ride**.
+
+![Median revenue by pickup zone](Images/Top_5_des_zones_de_départ_les_plus_rentables.png)
+
+---
+
+### **Q5 – Are Gowin points more profitable during weekends and peak hours?**
+
+Yes.
+Rides completed **during weekends** and **peak hours** generate **significantly higher median revenue**, indicating that incentive impact is **amplified during periods of high demand**.
+
+---
+
+### **Q6 – Are Gowin points more effective with specific driver segments?**
+
+Yes.
+Gowin points are more profitable when rides are assigned to **high-performing drivers**.
+
+High-performing drivers show:
+
+* **High median revenue** (≈ **1,330 FCFA**)
+* **Controlled trip volume** (26 trips)
+
+By comparison, intermediate drivers generate a **lower median revenue** (**1,008 FCFA**) despite a **much higher trip volume** (146 trips).
+
+This demonstrates that high-performing drivers offer the **best balance between profitability and operational capacity**.
+
+![Median revenue and volume by driver segment](Images/revenu_médian_vs_volume_par_segment_chauffeur.png)
+
+---
+
+## **Tools Used**
+
+* **Python**
+* **pandas** – data manipulation and analysis
+* **matplotlib & seaborn** – data visualization
+* **Jupyter Notebook**
+* **Simulated data** (fictional ride-hailing platform)
+
+---
+
+## **Key Learnings**
+
+This project strengthened several core skills in **business-oriented data analysis**:
+
+* Evaluating the **economic impact of incentives**, beyond trip volume to focus on **profitability per ride**
+* Understanding the importance of **metric selection**, especially the use of **median revenue** to avoid biased conclusions
+* Applying **segmentation techniques** (customers, drivers, zones, time periods)
+* **Contextualizing results** by combining profitability and volume to avoid misleading interpretations
+
+Above all, this project reinforced that good analysis is not just about producing numbers, but about **asking the right questions and turning results into actionable recommendations**.
+
+---
+
+## **Conclusion**
+
+This analysis shows that **incentives have a direct and measurable impact on revenue growth**, but their effectiveness strongly depends on the **context in which they are activated**.
 
