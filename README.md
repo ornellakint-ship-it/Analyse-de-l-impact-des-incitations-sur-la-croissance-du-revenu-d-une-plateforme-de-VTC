@@ -150,8 +150,6 @@ Les **points Gowin** apparaissent comme le levier le plus performant, en particu
 
 Ces résultats suggèrent qu’une stratégie d’incitation efficace ne repose pas uniquement sur le choix du mécanisme, mais sur un **ciblage précis et intelligent**, orienté vers une **croissance durable et rentable**.
 
-Perfect — below is a **GitHub-ready Markdown version**, with proper **headings, bold text, and structure**.
-You can **paste this directly into the GitHub README editor** and it will render cleanly.
 
 ---
 
